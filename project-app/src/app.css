@@ -44,6 +44,7 @@ li{
     font-size: 2rem;
     cursor: pointer;
     
+    
 }
 
 .flex{
@@ -57,13 +58,20 @@ li{
 }
 
 .btn{
-    padding: .6rem 1.5rem;
-    background: var(--gradientColor);
-    border-radius: 3rem;
-    border: none;
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid var(--WhiteColor);
     outline: none;
+    border-radius: 6px;
     cursor: pointer;
+    font-size: 1.1em;
+    color:var(--WhiteColor);
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
 
+  
 }
 
 .btn a{

@@ -1,0 +1,156 @@
+.main{
+    width: 100%;
+    
+
+    .secTitle{
+        .title{
+            position: relative;
+            width: max-content;
+            color: rgb(122, 114, 238);
+            margin: 1rem 0;
+            z-index: 2;
+            align-self: center;
+
+            &::after{
+                position: relative;
+                content: '';
+                background: rgb(109, 109, 228);
+                height: 5px;
+                width: 120px;
+                right: 0;
+                bottom: 1px;
+                z-index: -1;
+                
+            }
+        }
+    }
+
+
+
+    .secContent{
+        justify-content: center;
+        gap: 1.5rem;
+        
+
+        .singleDestination{
+            height: 100%;
+            display: grid;
+            row-gap: 10px;
+            border-radius: 10px;
+            align-items: center;
+            background: rgb(4, 4, 66);
+            box-shadow: 0 2px 4px gray;
+            overflow: hidden;
+            &:hover{
+                background: rgb(89, 129, 240);
+                box-shadow: 1 4px 4px rgb(114, 88, 88);
+                transition: .3s ease;
+            }
+
+            .imageDiv{
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+                ime{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    transition: .2s ease;
+                }
+
+                &:hover{
+                    img{
+                        transform: scale(1.05);
+                    }
+                }
+                
+            }
+
+            .cardInfo{
+                padding: 1rem;
+
+                .destTitle{
+                    color: rgb(247, 247, 247);
+                    font-size: 1.25rem;
+                }
+
+                .continent{
+                    gap: .5rem;
+
+                    .icon{
+                        color: aliceblue;
+                        font-size: 18px;
+                    }
+
+                    .name{
+                        color: white;
+                        font-weight: 400;
+                        font-size: 14px;
+                    }
+                }
+
+                .fees{
+                    width: 100%;
+                    justify-content: space-between;
+                    padding: 1rem;
+                    margin: 1rem 0;
+                    border-top: 1.5px solid white;
+                    border-bottom: 1.5px solid white;
+
+                    .puntuacion{
+                        color: white;
+                        max-width: 100px;
+                        line-height: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .precio{
+                        font-size: 2rem;
+                        color: white;
+                    }
+
+                }
+                .desc{
+                    font-size: 13.5px;
+                    color: white;
+                    font-weight: 500;
+                }
+
+                .btn{
+                    margin-top: 1rem;
+                    color: white;
+                    font-weight: 600;
+                    justify-content: space-between;
+                    gap: .5rem;
+                    &:hover{
+                        background: #14c7af;
+                        a{
+                            color: black;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+        .secContent{
+            grid-template-columns: repeat(3,1fr);
+            width: auto;
+            padding: 5rem;
+            grid-gap: 40px;
+
+            .singleDestination{
+                height: auto;
+                
+                
+            }
+        }
+}
+
+

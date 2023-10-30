@@ -1,27 +1,38 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './navbar.css'
 import {BiSolidGame} from 'react-icons/bi'
 import {IoIosCloseCircle} from 'react-icons/io'
-import {PiDotsSixVerticalThin} from 'react-icons/pi'
+import {CgMenuGridO} from 'react-icons/cg'
+
+
+
 
 //Barra de navegacion principal
 
 const Navbar = () => {
+  const [active, setActive] = useState('navBar')
+  const showNav =()=>{
+    setActive('navBar activeNavbar')
+  }
+  const hideNav =()=>{
+    setActive('navBar')
+  }
+
   return (
     <section className='navBarSection'>
       <header className="header flex">
 
         <div className="logoDiv">
           <a href="#" className="logo flex">
-            <h1><BiSolidGame className="icon"/> Logooo</h1>
+            <h1><BiSolidGame className="icon"/> Gameting</h1>
           </a>
         </div>
 
-        <div className="navBar">
+        <div className={active}>
 
-          <ul className="navList flex">
+          <ul className="navLists flex">
 
-            <li className="nabItem">
+            <li className="navItem">
               <a href="#" className="navLink">Home</a>
             </li>
 
@@ -40,19 +51,20 @@ const Navbar = () => {
             <li className="navItem">
               <a href="#" className="navLink">Navbar4</a>
             </li>
+            
 
             <button className='btn'>
-              <a href='#'>Hacer algo</a>
+              <a href='#'>Sing up</a>
             </button>
           </ul>
 
-          <div className="closeNavbar">
+          <div onClick={hideNav} className="closeNavbar">
             <IoIosCloseCircle className="icon"/>
           </div>
         </div>
 
-        <div className="toggleNavbar">
-          <PiDotsSixVerticalThin className="icon"/>
+        <div onClick={showNav} className="toggleNavbar">
+          <CgMenuGridO className="icon"/>
         </div>
         
       </header>
