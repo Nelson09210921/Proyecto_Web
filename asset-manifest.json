@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Proyecto_Web/project-app/static/css/main.82a50ca2.css",
-    "main.js": "/Proyecto_Web/project-app/static/js/main.e58b61c2.js",
-    "static/media/fondomain.mp4": "/Proyecto_Web/project-app/static/media/fondomain.dad5b12dd4f167fb58d3.mp4",
-    "static/media/fondoprincipal.mp4": "/Proyecto_Web/project-app/static/media/fondoprincipal.dffff8a0b06343a43320.mp4",
-    "static/media/videofondohome2.mp4": "/Proyecto_Web/project-app/static/media/videofondohome2.ee2cead10b677465ac69.mp4",
-    "static/media/fondohome1.jpeg": "/Proyecto_Web/project-app/static/media/fondohome1.e42169870cee73b80f27.jpeg",
-    "static/media/fondohome4.jpeg": "/Proyecto_Web/project-app/static/media/fondohome4.65099b60a7f5fddd9654.jpeg",
-    "static/media/fondohome3.jpeg": "/Proyecto_Web/project-app/static/media/fondohome3.34fa974f298462928c82.jpeg",
-    "static/media/fondohome2.jpeg": "/Proyecto_Web/project-app/static/media/fondohome2.4c2e724b779185eaf2ef.jpeg",
-    "static/media/fondohome6 .jpeg": "/Proyecto_Web/project-app/static/media/fondohome6 .365deee8a465c1ca3202.jpeg",
-    "static/media/fondohome5.jpeg": "/Proyecto_Web/project-app/static/media/fondohome5.5c1bf862faa105db79a9.jpeg",
-    "index.html": "/Proyecto_Web/project-app/index.html",
-    "main.82a50ca2.css.map": "/Proyecto_Web/project-app/static/css/main.82a50ca2.css.map",
-    "main.e58b61c2.js.map": "/Proyecto_Web/project-app/static/js/main.e58b61c2.js.map"
+    "main.css": "/Proyecto_Web/static/css/main.82a50ca2.css",
+    "main.js": "/Proyecto_Web/static/js/main.f45f857b.js",
+    "static/media/fondomain.mp4": "/Proyecto_Web/static/media/fondomain.dad5b12dd4f167fb58d3.mp4",
+    "static/media/fondoprincipal.mp4": "/Proyecto_Web/static/media/fondoprincipal.dffff8a0b06343a43320.mp4",
+    "static/media/videofondohome2.mp4": "/Proyecto_Web/static/media/videofondohome2.ee2cead10b677465ac69.mp4",
+    "static/media/fondohome1.jpeg": "/Proyecto_Web/static/media/fondohome1.e42169870cee73b80f27.jpeg",
+    "static/media/fondohome4.jpeg": "/Proyecto_Web/static/media/fondohome4.65099b60a7f5fddd9654.jpeg",
+    "static/media/fondohome3.jpeg": "/Proyecto_Web/static/media/fondohome3.34fa974f298462928c82.jpeg",
+    "static/media/fondohome2.jpeg": "/Proyecto_Web/static/media/fondohome2.4c2e724b779185eaf2ef.jpeg",
+    "static/media/fondohome6 .jpeg": "/Proyecto_Web/static/media/fondohome6 .365deee8a465c1ca3202.jpeg",
+    "static/media/fondohome5.jpeg": "/Proyecto_Web/static/media/fondohome5.5c1bf862faa105db79a9.jpeg",
+    "index.html": "/Proyecto_Web/index.html",
+    "main.82a50ca2.css.map": "/Proyecto_Web/static/css/main.82a50ca2.css.map",
+    "main.f45f857b.js.map": "/Proyecto_Web/static/js/main.f45f857b.js.map"
   },
   "entrypoints": [
     "static/css/main.82a50ca2.css",
-    "static/js/main.e58b61c2.js"
+    "static/js/main.f45f857b.js"
   ]
 }
