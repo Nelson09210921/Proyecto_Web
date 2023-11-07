@@ -37,19 +37,19 @@ const Navbar = () => {
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">Navbar1</a>
+              <a href="#" className="navLink">Especiales</a>
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">Navbar2</a>
+              <a href="#" className="navLink">Productos</a>
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">Navbar3</a>
+              <a href="#" className="navLink">Acerca de</a>
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">Navbar4</a>
+              <a href="#" className="navLink">Proxx</a>
             </li>
             
 

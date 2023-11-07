@@ -11,6 +11,9 @@ import {RiMoneyDollarCircleFill} from 'react-icons/ri'
 import {PiShootingStar} from 'react-icons/pi'
 import {LiaCartArrowDownSolid} from 'react-icons/lia'
 
+
+
+
 import fondomain from '../../Assets/fondomain.mp4'
 
 
@@ -85,6 +88,8 @@ const Data = [
 const Main = () => {
   return (
     <section className='main container section'>
+      
+      <video id='videofondo' src={fondomain} muted autoPlay loop type="video/mp4" ></video>
       <div className='overlay' ></div>
     
       <div className="secTitle">
@@ -138,7 +143,7 @@ const Main = () => {
         })
       }
       </div>
-      <video id='videofondo' src={fondomain} muted autoPlay loop type="video/mp4" ></video>
+      
     </section>
   )
 }

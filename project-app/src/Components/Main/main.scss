@@ -1,13 +1,13 @@
 .main{
     width: 100%;
-    
+    background-color: #2a3041f8;
 
     .secTitle{
         .title{
             position: relative;
             width: max-content;
             color: rgb(122, 114, 238);
-            margin: 1rem 0;
+            
             z-index: 2;
             align-self: center;
 
@@ -27,6 +27,8 @@
 
 
 
+
+
     .secContent{
         justify-content: center;
         gap: 1.5rem;
@@ -34,6 +36,7 @@
 
         .singleDestination{
             height: 100%;
+            border: 2px;
             display: grid;
             row-gap: 10px;
             border-radius: 10px;
@@ -41,6 +44,7 @@
             background: rgb(4, 4, 66);
             box-shadow: 0 2px 4px gray;
             overflow: hidden;
+            
             &:hover{
                 background: rgb(89, 129, 240);
                 box-shadow: 1 4px 4px rgb(114, 88, 88);

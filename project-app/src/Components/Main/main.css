@@ -1,12 +1,12 @@
 .main {
   width: 100%;
+  background-color: rgba(42, 48, 65, 0.9725490196);
 }
 .main .secTitle .title {
   position: relative;
   width: -moz-max-content;
   width: max-content;
   color: rgb(122, 114, 238);
-  margin: 1rem 0;
   z-index: 2;
   align-self: center;
 }
@@ -26,6 +26,7 @@
 }
 .main .secContent .singleDestination {
   height: 100%;
+  border: 2px;
   display: grid;
   row-gap: 10px;
   border-radius: 10px;
