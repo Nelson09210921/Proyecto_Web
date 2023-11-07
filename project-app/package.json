@@ -11,6 +11,7 @@
     "react": "^18.2.0",
     "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -43,6 +44,6 @@
   "dependencies": {
     "gh-pages": "^6.0.0",
     "react-icons": "^4.11.0"
->>>>>>> a328cadc11be1e428cc8e2f03c855786c05e2196
+>>>>>>> 06a5fcb3bb0bc1d451e01a3ef156c4b6bfddedd0
   }
 }
