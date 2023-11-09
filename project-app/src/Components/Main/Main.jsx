@@ -1,5 +1,6 @@
 import React from 'react'
 import './main.css'
+import MyCarousel from '../MyCarousel/MyCarousel'
 import fondohome1 from '../../Assets/fondohome1.jpeg'
 import fondohome2 from '../../Assets/fondohome2.jpeg'
 import fondohome3 from '../../Assets/fondohome3.jpeg'
@@ -89,12 +90,7 @@ const Main = () => {
   return (
     <section className='main container section'>
       
-      <video id='videofondo' src={fondomain} muted autoPlay loop type="video/mp4" ></video>
-      <div className='overlay' ></div>
-    
-      <div className="secTitle">
-        <h3 className='title'> Most popular</h3>
-      </div>
+      <MyCarousel/>
 
       <div className="secContent grid">
         {
