@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "project-app",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +11,8 @@
     "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -40,10 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "dependencies": {
-    "gh-pages": "^6.0.0",
-    "react-icons": "^4.11.0"
->>>>>>> 06a5fcb3bb0bc1d451e01a3ef156c4b6bfddedd0
   }
 }
