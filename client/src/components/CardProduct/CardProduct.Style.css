@@ -1,0 +1,68 @@
+.card-produc{
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    color: var(--osc);
+    background-color: var(--claro);
+}
+.card-produc figure,
+.card-produc img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.contGrid{
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(250px, 1fr)
+        );
+    gap: 32px;
+    justify-items: center;
+}
+
+.rangStar{
+    position: absolute;
+    color: #ddc80a;
+    top: 10px;
+    right: 10px;
+    text-shadow: 0 0 10px #00000066;
+}
+.prodNom{
+    margin: 0;
+}
+
+.contInfo{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 175px);
+}
+.contPrecio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+    .contPrecio p{
+       margin: 5px 0;
+    }
+.venta{
+    color: var(--verde);
+    font-size: 1.2em;
+  }
+  .noVenta{
+    color: var(--red);
+  }
+
+.card-produc .contBtnCard{
+    display: flex;
+    justify-content: space-between;
+}
