@@ -1,0 +1,38 @@
+/* SupportPage.css */
+
+/* Estilos generales para la página */
+body {
+    font-size: 16px; /* Establece un tamaño de fuente base */
+  }
+  
+  .support-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para encabezados */
+  h1 {
+    font-size: 2.5em; /* Tamaño grande para encabezado */
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8em; /* Tamaño medio para subencabezado */
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para párrafos y listas */
+  p, ul {
+    font-size: 1em; /* Tamaño base para párrafos y listas */
+    line-height: 1.5; /* Espaciado entre líneas */
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para elementos específicos */
+  .contact-section {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  

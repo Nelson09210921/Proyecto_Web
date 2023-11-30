@@ -1,0 +1,51 @@
+/* ProductosAdmin.Style.css */
+
+/* Estilos para el contenedor principal */
+.container {
+    margin: 20px;
+    padding: 20px;
+    /* Estilos para pantallas más grandes */
+  }
+  
+  .contTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    /* Estilos para pantallas más grandes */
+  }
+  
+  .contTitle h1 {
+    font-size: 24px;
+    /* Estilos para pantallas más grandes */
+  }
+  
+  .btnCar4x4 {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media query para ajustar estilos en pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .container {
+      margin: 10px;
+      padding: 10px;
+      /* Estilos para pantallas más pequeñas */
+    }
+  
+    .contTitle {
+      flex-direction: column;
+      margin-bottom: 10px;
+      /* Estilos para pantallas más pequeñas */
+    }
+  
+    .contTitle h1 {
+      font-size: 20px;
+      /* Estilos para pantallas más pequeñas */
+    }
+  }
+  

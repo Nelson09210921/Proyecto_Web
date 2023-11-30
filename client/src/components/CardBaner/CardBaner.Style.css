@@ -1,0 +1,100 @@
+/* CardBaner.Style.css */
+
+/* Estilos base para dispositivos más grandes */
+.CardBaner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+ 
+    border-radius: 8px;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+  }
+  
+  .CardBaner figure {
+    flex: 0 0 40%;
+    margin-right: 20px;
+  }
+  
+  .CardBaner figure img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .CardBaner div {
+    flex: 0 0 60%;
+  }
+  
+  .CardBaner h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .CardBaner p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .CardBaner .btn-container {
+    display: flex;
+  }
+  
+  .CardBaner .btnA {
+    display: inline-block;
+    width: 30px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .CardBaner .btnA.primary-link-medium {
+    background-color: #007bff;
+  }
+  
+  .CardBaner .btnA.primary-link-medium:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Consulta de medios para tabletas */
+  @media screen and (max-width: 768px) {
+    .CardBaner {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    .CardBaner figure {
+      flex: 1 1 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .CardBaner div {
+      flex: 1 1 100%;
+    }
+  }
+  
+  /* Consulta de medios para dispositivos móviles */
+  @media screen and (max-width: 480px) {
+    .CardBaner h1 {
+      font-size: 20px;
+    }
+  
+    .CardBaner p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+  
+    .CardBaner .btnA {
+      padding: 8px 16px;
+      margin-right: 8px;
+      font-size: 12px;
+    }
+  }
+  

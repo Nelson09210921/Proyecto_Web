@@ -1,0 +1,32 @@
+/* Estilos para el carrusel */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* Ajustar márgenes y tamaños según tus necesidades */
+}
+
+/* Estilos para la sección pt-5 pb-5 */
+.pt-5 {
+  padding-top: 5rem;
+}
+.pb-5 {
+  padding-bottom: 5rem;
+}
+
+/* Estilos para los íconos de tarjeta */
+.flexCar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Estilos específicos para la responsividad */
+@media screen and (max-width: 768px) {
+  .flexCar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Agrega más reglas CSS según las necesidades de diseño */
